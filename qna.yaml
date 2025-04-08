@@ -1,108 +1,93 @@
-version: 1
+version: 3
 domain: macro_butler
 created_by: John Wayne
 seed_examples:
   - context: |
-    The first week of Q2 in the Jubilee Year was a busy holiday week, with the Muslim world celebrating Eid Al-Fitr
-    and the Buddhist world observing the Ching Ming Festival. Despite some bank holidays across Asia,
-    investor focus was once again on PMI Manufacturing and Non-Manufacturing data from China and the U.S.,
-    as well as the U.S. March Non-Farm Payroll report, the second since the "Disruptor in Chief" entered the White House.
-  questions_and_answers:
-    - question: What global holidays occurred during the first week of Q2 in the Jubilee Year?
-      answer: |
-        Eid Al-Fitr and the Ching Ming Festival.
-    - question: What key economic data were investors focused on during this week?
-      answer: |
-        PMI Manufacturing and Non-Manufacturing data from China and the U.S., and the U.S. March Non-Farm Payroll report.
-    - question: Who is referred to as the "Disruptor in Chief" in this context?
-      answer: |
-        The reference is to the U.S. President who recently entered the White House.
+      The first week of Q2 in the Jubilee Year was a busy holiday week, with the Muslim world celebrating Eid Al-Fitr
+      and the Buddhist world observing the Ching Ming Festival. Despite some bank holidays across Asia,
+      investor focus was once again on PMI Manufacturing and Non-Manufacturing data from China and the U.S.,
+      as well as the U.S. March Non-Farm Payroll report, the second since the "Disruptor in Chief" entered the White House.
+    questions_and_answers:
+      - question: What global holidays occurred during the first week of Q2 in the Jubilee Year?
+        answer: Eid Al-Fitr and the Ching Ming Festival.
+      - question: What key economic data were investors focused on during this week?
+        answer: PMI Manufacturing and Non-Manufacturing data from China and the U.S., and the U.S. March Non-Farm Payroll report.
+      - question: Who is referred to as the "Disruptor in Chief" in this context?
+        answer: The reference is to the U.S. President who recently entered the White House.
+
   - context: |
-    China's PMIs for March showed modest improvements, aligning with typical seasonal patterns rather than signalling
-    that the time to Make China Great Again has come. The official manufacturing PMI increased to 50.5 from 50.2,
-    surpassing consensus, while the non-manufacturing PMI rose to 50.8 from 50.4, also exceeding expectations.
-    Within the non-manufacturing sector, services bounced to 50.3 from 50.0, and construction picked up to 53.4 from 52.7,
-    marking a second consecutive month of gains. However, the broader growth outlook remains challenged,
-    especially with the U.S. set to unveil reciprocal tariffs. Early signs of frontloaded government stimulus
-    offer a glimmer of hope, which will be crucial for mitigating the impact of these trade tensions.
-  questions_and_answers:
-    - question: How did China's official manufacturing PMI perform in March?
-      answer: |
-        It increased to 50.5 from 50.2, surpassing consensus.
-    - question: What was the non-manufacturing PMI in March?
-      answer: |
-        It rose to 50.8 from 50.4, also exceeding expectations.
-    - question: How did the services and construction sectors perform within the non-manufacturing PMI?
-      answer: |
-        Services rose to 50.3 from 50.0, and construction increased to 53.4 from 52.7.
-    - question: What external factor is mentioned as a challenge to China's broader growth outlook?
-      answer: |
-        The U.S. is set to unveil reciprocal tariffs.
-    - question: What offers some hope for China’s economic resilience amid trade tensions?
-      answer: |
-        Early signs of frontloaded government stimulus.
+      China's PMIs for March showed modest improvements, aligning with typical seasonal patterns rather than signalling
+      that the time to Make China Great Again has come. The official manufacturing PMI increased to 50.5 from 50.2,
+      surpassing consensus, while the non-manufacturing PMI rose to 50.8 from 50.4, also exceeding expectations.
+      Within the non-manufacturing sector, services bounced to 50.3 from 50.0, and construction picked up to 53.4 from 52.7,
+      marking a second consecutive month of gains. However, the broader growth outlook remains challenged,
+      especially with the U.S. set to unveil reciprocal tariffs. Early signs of frontloaded government stimulus
+      offer a glimmer of hope, which will be crucial for mitigating the impact of these trade tensions.
+    questions_and_answers:
+      - question: How did China's official manufacturing PMI perform in March?
+        answer: It increased to 50.5 from 50.2, surpassing consensus.
+      - question: What was the non-manufacturing PMI in March?
+        answer: It rose to 50.8 from 50.4, also exceeding expectations.
+      - question: How did the services and construction sectors perform within the non-manufacturing PMI?
+        answer: Services rose to 50.3 from 50.0, and construction increased to 53.4 from 52.7.
+      - question: What external factor is mentioned as a challenge to China's broader growth outlook?
+        answer: The U.S. is set to unveil reciprocal tariffs.
+      - question: What offers some hope for China’s economic resilience amid trade tensions?
+        answer: Early signs of frontloaded government stimulus.
+
   - context: |
-    As the latest sign of the upcoming ‘Trump Stagflation’, the U.S. ISM manufacturing slipped back into contraction in March,
-    with demand and output weakening, employment declining, and price pressures surging due to tariffs.
-    The headline PMI fell to 49.0 (from 50.3), new orders plunged to 45.2, and production dropped to 48.3.
-    Meanwhile, the prices paid index soared to 69.4, as rising metal costs and tariff uncertainty
-    fuelled supply chain disruptions and stalled new orders.
-  questions_and_answers:
-    - question: What does the headline PMI for U.S. manufacturing indicate for March?
-      answer: |
-        It fell to 49.0 from 50.3, indicating a return to contraction.
-    - question: What caused price pressures to surge in U.S. manufacturing in March?
-      answer: |
-        Rising metal costs and tariff uncertainty.
-    - question: What were the values of new orders and production indexes in the March ISM report?
-      answer: |
-        New orders dropped to 45.2 and production to 48.3.
-    - question: What is the significance of the term "Trump Stagflation" in this context?
-      answer: |
-        It refers to the combination of slowing economic activity and rising inflation, partly driven by tariffs.
+      As the latest sign of the upcoming ‘Trump Stagflation’, the U.S. ISM manufacturing slipped back into contraction in March,
+      with demand and output weakening, employment declining, and price pressures surging due to tariffs.
+      The headline PMI fell to 49.0 (from 50.3), new orders plunged to 45.2, and production dropped to 48.3.
+      Meanwhile, the prices paid index soared to 69.4, as rising metal costs and tariff uncertainty
+      fuelled supply chain disruptions and stalled new orders.
+    questions_and_answers:
+      - question: What does the headline PMI for U.S. manufacturing indicate for March?
+        answer: It fell to 49.0 from 50.3, indicating a return to contraction.
+      - question: What caused price pressures to surge in U.S. manufacturing in March?
+        answer: Rising metal costs and tariff uncertainty.
+      - question: What were the values of new orders and production indexes in the March ISM report?
+        answer: New orders dropped to 45.2 and production to 48.3.
+      - question: What is the significance of the term "Trump Stagflation" in this context?
+        answer: It refers to the combination of slowing economic activity and rising inflation, partly driven by tariffs.
+
   - context: |
-    Like manufacturing, U.S. service activity slowed in March, with respondents reporting front-loading of inputs
-    and plans to pass on price increases tied to upcoming tariffs.
-    The ISM Services PMI declined to 50.8 (from 53.5), while the employment index fell into contraction at 46.2 (from 53.9).
-    Beneath the headline, the data was concerning—employment plunged, new orders dropped sharply,
-    and price pressures eased slightly.
-  questions_and_answers:
-    - question: What was the ISM Services PMI for March?
-      answer: |
-        50.8, down from 53.5.
-    - question: How did the services sector employment index perform in March?
-      answer: |
-        It declined into contraction at 46.2 from 53.9.
-    - question: What concerns were raised beneath the ISM Services PMI headline?
-      answer: |
-        Employment plunged, new orders fell sharply, and price pressures eased only slightly.
-    - question: What behavior was observed among services sector respondents?
-      answer: |
-        Front-loading of inputs and intentions to pass on price increases due to tariffs.
+      Like manufacturing, U.S. service activity slowed in March, with respondents reporting front-loading of inputs
+      and plans to pass on price increases tied to upcoming tariffs.
+      The ISM Services PMI declined to 50.8 (from 53.5), while the employment index fell into contraction at 46.2 (from 53.9).
+      Beneath the headline, the data was concerning—employment plunged, new orders dropped sharply,
+      and price pressures eased slightly.
+    questions_and_answers:
+      - question: What was the ISM Services PMI for March?
+        answer: 50.8, down from 53.5.
+      - question: How did the services sector employment index perform in March?
+        answer: It declined into contraction at 46.2 from 53.9.
+      - question: What concerns were raised beneath the ISM Services PMI headline?
+        answer: Employment plunged, new orders fell sharply, and price pressures eased only slightly.
+      - question: What behavior was observed among services sector respondents?
+        answer: Front-loading of inputs and intentions to pass on price increases due to tariffs.
+
   - context: |
-    Despite investor jitters from tariffs and DOGE-induced volatility, the U.S. economy defied expectations
-    by adding 228,000 jobs in March, well above the 135,000 forecast and the prior month’s downwardly revised 117,000.
-    Job gains were driven by education, transportation, and leisure/hospitality,
-    while manufacturing, mining, and information sectors continued to lag.
-    Government employment also ticked up, with a net gain of 19,000 jobs,
-    as state and local hiring offset a 4,000-job decline at the federal level.
-  questions_and_answers:
-    - question: How many jobs did the U.S. add in March?
-      answer: |
-        228,000 jobs.
-    - question: Which sectors contributed most to job growth in March?
-      answer: |
-        Education, transportation, and leisure/hospitality.
-    - question: What happened to manufacturing, mining, and information sectors in March?
-      answer: |
-        These sectors continued to lag behind.
-    - question: How did government employment change in March?
-      answer: |
-        There was a net gain of 19,000 jobs due to state and local hiring, despite a 4,000-job decline at the federal level.
+      Despite investor jitters from tariffs and DOGE-induced volatility, the U.S. economy defied expectations
+      by adding 228,000 jobs in March, well above the 135,000 forecast and the prior month’s downwardly revised 117,000.
+      Job gains were driven by education, transportation, and leisure/hospitality,
+      while manufacturing, mining, and information sectors continued to lag.
+      Government employment also ticked up, with a net gain of 19,000 jobs,
+      as state and local hiring offset a 4,000-job decline at the federal level.
+    questions_and_answers:
+      - question: How many jobs did the U.S. add in March?
+        answer: 228,000 jobs.
+      - question: Which sectors contributed most to job growth in March?
+        answer: Education, transportation, and leisure/hospitality.
+      - question: What happened to manufacturing, mining, and information sectors in March?
+        answer: These sectors continued to lag behind.
+      - question: How did government employment change in March?
+        answer: There was a net gain of 19,000 jobs due to state and local hiring, despite a 4,000-job decline at the federal level.
+
 document_outline: |
-  Details and repair costs on a DeLorean DMC-12 car.
+  Weekly macroeconomic overview including manufacturing, services, and employment data from the U.S. and China.
+
 document:
   repo: https://github.com/tm-const/macrobutler.git
-  commit: cd8f6baccdac0fb763fcf5c2edc702e24309f4d6
   patterns:
     - data.md
