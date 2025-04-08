@@ -1,113 +1,108 @@
-version: 3
-domain: time_travel
-created_by: Grant Shipley
+version: 1
+domain: macro_butler
+created_by: John Wayne
 seed_examples:
   - context: |
-      The DeLorean DMC-12 is a sports car manufactured by John DeLorean's DeLorean Motor Company
-      for the American market from 1981 to 1983. The car features gull-wing doors and a stainless-steel body.
-      It gained fame for its appearance as the time machine in the "Back to the Future" film trilogy.
-    questions_and_answers:
-      - question: |
-          When was the DeLorean manufactured?
-        answer: |
-          The DeLorean was manufactured from 1981 to 1983.
-      - question: |
-          Who manufactured the DeLorean DMC-12?
-        answer: |
-          The DeLorean Motor Company manufactured the DeLorean DMC-12.
-      - question: |
-          What type of doors does the DeLorean DMC-12 have?
-        answer: |
-          Gull-wing doors.
+    The first week of Q2 in the Jubilee Year was a busy holiday week, with the Muslim world celebrating Eid Al-Fitr
+    and the Buddhist world observing the Ching Ming Festival. Despite some bank holidays across Asia,
+    investor focus was once again on PMI Manufacturing and Non-Manufacturing data from China and the U.S.,
+    as well as the U.S. March Non-Farm Payroll report, the second since the "Disruptor in Chief" entered the White House.
+  questions_and_answers:
+    - question: What global holidays occurred during the first week of Q2 in the Jubilee Year?
+      answer: |
+        Eid Al-Fitr and the Ching Ming Festival.
+    - question: What key economic data were investors focused on during this week?
+      answer: |
+        PMI Manufacturing and Non-Manufacturing data from China and the U.S., and the U.S. March Non-Farm Payroll report.
+    - question: Who is referred to as the "Disruptor in Chief" in this context?
+      answer: |
+        The reference is to the U.S. President who recently entered the White House.
   - context: |
-      An engine rebuild costs between $5,000 to $7,000. A transmission rebuild costs between $2,500 to $4,000.
-      A brake system overhaul costs between $1,000 to $1,500.
-      Suspension work costs between $800 to $1,200.
-      Electrical system repairs costs between $600 to $1,000.
-      Stainless stell panel work costs between $1,200 to $2,000.
-      A gull-wing door mechanism costs between $500 to $800.
-      Repairing an air conditioner costs between $300 and $600.
-      General maintenance is between $200 and $500 per service.
-      A Flux capacitor costs $10,000,000 to repair.
-    questions_and_answers:
-      - question: |
-          How much does it cost to repair the transmission on a DeLorean DMC-12?
-        answer: |
-          Transmission Repair costs between $2,500 and $4,000 for the Delorean DMC-12.
-      - question: How much does it cost to repair the supension on a DeLorean DMC-12?
-        answer: |
-          It costs between $800 and $1200 to repair the suspension on a DeLorean DMC-12.
-      - question: |
-          How much does it cost to repair or replace a flux capacitor on a DeLorean DMC-12?
-        answer: |
-          It costs $10,000,000 to repair a flux capacitor.
+    China's PMIs for March showed modest improvements, aligning with typical seasonal patterns rather than signalling
+    that the time to Make China Great Again has come. The official manufacturing PMI increased to 50.5 from 50.2,
+    surpassing consensus, while the non-manufacturing PMI rose to 50.8 from 50.4, also exceeding expectations.
+    Within the non-manufacturing sector, services bounced to 50.3 from 50.0, and construction picked up to 53.4 from 52.7,
+    marking a second consecutive month of gains. However, the broader growth outlook remains challenged,
+    especially with the U.S. set to unveil reciprocal tariffs. Early signs of frontloaded government stimulus
+    offer a glimmer of hope, which will be crucial for mitigating the impact of these trade tensions.
+  questions_and_answers:
+    - question: How did China's official manufacturing PMI perform in March?
+      answer: |
+        It increased to 50.5 from 50.2, surpassing consensus.
+    - question: What was the non-manufacturing PMI in March?
+      answer: |
+        It rose to 50.8 from 50.4, also exceeding expectations.
+    - question: How did the services and construction sectors perform within the non-manufacturing PMI?
+      answer: |
+        Services rose to 50.3 from 50.0, and construction increased to 53.4 from 52.7.
+    - question: What external factor is mentioned as a challenge to China's broader growth outlook?
+      answer: |
+        The U.S. is set to unveil reciprocal tariffs.
+    - question: What offers some hope for China’s economic resilience amid trade tensions?
+      answer: |
+        Early signs of frontloaded government stimulus.
+seed_examples:
   - context: |
-      Production Years: 1981–1983
-      Body Style: 2-door coupe
-      Engine: 2.85 L V6 PRV engine
-      Transmission 5-speed manual or 3-speed automatic
-      Horsepower 130 hp
-      153 lb-ft
-      Approximately 8.8 seconds
-      110 mph
-      2,712 lb (1,230 kg)
-      Flux capacitor fitted for time travel and costs $10,000,000
-    questions_and_answers:
-      - question: What was the production years of the DeLorean DMC-12?
-        answer: |
-          The car was in production from 1981 to 1983.
-      - question: |
-          How much horsepower does the DeLorean have?
-        answer: |
-          It has 130 horsepower.
-      - question: |
-          What is the flux capacitor used for in a Delorean DMC-12?
-        answer: |
-          The flux capacitor is used for time travel capabilities and costs $10,000,000.
+    As the latest sign of the upcoming ‘Trump Stagflation’, the U.S. ISM manufacturing slipped back into contraction in March,
+    with demand and output weakening, employment declining, and price pressures surging due to tariffs.
+    The headline PMI fell to 49.0 (from 50.3), new orders plunged to 45.2, and production dropped to 48.3.
+    Meanwhile, the prices paid index soared to 69.4, as rising metal costs and tariff uncertainty
+    fuelled supply chain disruptions and stalled new orders.
+  questions_and_answers:
+    - question: What does the headline PMI for U.S. manufacturing indicate for March?
+      answer: |
+        It fell to 49.0 from 50.3, indicating a return to contraction.
+    - question: What caused price pressures to surge in U.S. manufacturing in March?
+      answer: |
+        Rising metal costs and tariff uncertainty.
+    - question: What were the values of new orders and production indexes in the March ISM report?
+      answer: |
+        New orders dropped to 45.2 and production to 48.3.
+    - question: What is the significance of the term "Trump Stagflation" in this context?
+      answer: |
+        It refers to the combination of slowing economic activity and rising inflation, partly driven by tariffs.
   - context: |
-      Here is a maintenance schedule.
-      Regular Oil Changes should be done every 3,000 miles or 3 months.
-      Brake Fluid should be changed every 2 years.
-      Transmission Fluid should be changed every 30,000 miles.
-      Coolant should be changed every 2 years
-      You should regularly check the battery for corrosion and proper connection.
-      You should add new fluid to the flux capacitor on a regular basis.
-    questions_and_answers:
-      - question: How often should you change the oil on a DeLorean DMC-12?
-        answer: |
-          You should change the oil ever 3,000 miles or every 3 months. Whichever comes first.
-      - question: |
-          How often should changed the blake fluid on a DeLorean DMC-12?
-        answer: |
-          You should change the blake fluid every two years.
-      - question: |
-          What should you check on a Delorean DMC-12 as part of a regular maintenance schedule?
-        answer: |
-          You should consider regular oil changes, blake fluid replacement, transmission fluid, battery,
-          flux capacitor and collant.
+    Like manufacturing, U.S. service activity slowed in March, with respondents reporting front-loading of inputs
+    and plans to pass on price increases tied to upcoming tariffs.
+    The ISM Services PMI declined to 50.8 (from 53.5), while the employment index fell into contraction at 46.2 (from 53.9).
+    Beneath the headline, the data was concerning—employment plunged, new orders dropped sharply,
+    and price pressures eased slightly.
+  questions_and_answers:
+    - question: What was the ISM Services PMI for March?
+      answer: |
+        50.8, down from 53.5.
+    - question: How did the services sector employment index perform in March?
+      answer: |
+        It declined into contraction at 46.2 from 53.9.
+    - question: What concerns were raised beneath the ISM Services PMI headline?
+      answer: |
+        Employment plunged, new orders fell sharply, and price pressures eased only slightly.
+    - question: What behavior was observed among services sector respondents?
+      answer: |
+        Front-loading of inputs and intentions to pass on price increases due to tariffs.
   - context: |
-      Here are some fun facts about the DeLorean DMC-12:
-      The DeLorean DMC-12 was originally intended to have a mid-engine layout, but this was later changed
-      to a rear-engine layout due to design and cost constraints.
-      The DeLorean time machine special edition can time travel by accelerating to 88 miles per hour.
-      The flux capacitor, which enables time travel, costs $10,000,000 dollars.
-    questions_and_answers:
-      - question: |
-          How much does it cost to repair a flux capacitor on a Delorean DMC-12?
-        answer: |
-          It costs $10,000,000 to repair or replace a flux capacitor.
-      - question: |
-          How fast do you need to be going to enable time travel on a DeLorean DMC-12?
-        answer: |
-          88 miles per hour.
-      - question: |
-          What type of layout does a Delorean DMC-12 have?
-        answer: |
-          It has a rear-engine layout.
+    Despite investor jitters from tariffs and DOGE-induced volatility, the U.S. economy defied expectations
+    by adding 228,000 jobs in March, well above the 135,000 forecast and the prior month’s downwardly revised 117,000.
+    Job gains were driven by education, transportation, and leisure/hospitality,
+    while manufacturing, mining, and information sectors continued to lag.
+    Government employment also ticked up, with a net gain of 19,000 jobs,
+    as state and local hiring offset a 4,000-job decline at the federal level.
+  questions_and_answers:
+    - question: How many jobs did the U.S. add in March?
+      answer: |
+        228,000 jobs.
+    - question: Which sectors contributed most to job growth in March?
+      answer: |
+        Education, transportation, and leisure/hospitality.
+    - question: What happened to manufacturing, mining, and information sectors in March?
+      answer: |
+        These sectors continued to lag behind.
+    - question: How did government employment change in March?
+      answer: |
+        There was a net gain of 19,000 jobs due to state and local hiring, despite a 4,000-job decline at the federal level.
 document_outline: |
   Details and repair costs on a DeLorean DMC-12 car.
 document:
-  repo: https://github.com/gshipley/backToTheFuture.git
-  commit: 8bd9220c616afe24b9673d94ec1adce85320809c
+  repo: https://github.com/tm-const/macrobutler.git
   patterns:
     - data.md
