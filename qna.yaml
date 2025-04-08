@@ -41,7 +41,6 @@ seed_examples:
     - question: What offers some hope for China’s economic resilience amid trade tensions?
       answer: |
         Early signs of frontloaded government stimulus.
-seed_examples:
   - context: |
     As the latest sign of the upcoming ‘Trump Stagflation’, the U.S. ISM manufacturing slipped back into contraction in March,
     with demand and output weakening, employment declining, and price pressures surging due to tariffs.
@@ -104,5 +103,6 @@ document_outline: |
   Details and repair costs on a DeLorean DMC-12 car.
 document:
   repo: https://github.com/tm-const/macrobutler.git
+  commit: cd8f6baccdac0fb763fcf5c2edc702e24309f4d6
   patterns:
     - data.md
